@@ -34,7 +34,7 @@ const projects = [
       ],
     date: `April-2023-blue`,
     stacks: ['Python', 'OpenAI', 'GoogleSpeech'],
-    img: "chatbot.png"
+    img: "https://user-images.githubusercontent.com/53862911/233826669-2e1a30d3-160b-44d7-9e3f-a9d8b81c46d6.png"
   },
   {
     name: "암세포 분류 AI",
@@ -47,7 +47,7 @@ const projects = [
     ],
     date: `February-2023-blue`,
     stacks: ['Python', 'Pytorch'],
-    img: "cell.png"
+    img: "https://user-images.githubusercontent.com/53862911/233826727-c81b0de8-755d-4a80-acd2-746298044a99.png"
   },
   {
     name: "손동작 인식 스트레칭 가이드",
@@ -60,7 +60,7 @@ const projects = [
     ],
     date: `May-2023-blue`,
     stacks: ['Python', 'Numpy', 'OpenCV', 'tensorflow'],
-    img: "hand.png"
+    img: "https://user-images.githubusercontent.com/53862911/233826701-34e645d9-ef6c-4130-9f67-373b71e2a8af.png"
   },
   {
     name: "강아지 객체 분류 AI",
@@ -72,7 +72,7 @@ const projects = [
     ],
     date: `December-2022-blue`,
     stacks: ['Python', 'Pytorch', 'Numpy', 'Scikitlearn'],
-    img: "dogclassification.png"
+    img: "https://user-images.githubusercontent.com/53862911/233826449-dce822ba-3a81-4755-92a0-8504ebb78bbd.png"
 
   },
 ]

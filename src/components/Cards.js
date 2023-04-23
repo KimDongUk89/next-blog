@@ -90,7 +90,7 @@ export default function RecipeReviewCard(props) {
         <div className="right"></div>
         <div className="card">
           <div className="front">
-            <div className="cover" style={{ background: `url("/${props.img}") center` }} ></div>
+            <div className="cover" style={{ background: `url("${props.img}") center` }} ></div>
             <Typography variant="h4" align="center" className={classes.title} >{props.name}</Typography>
             <Typography variant="subtitle1" align="center" className={classes.subtitle} >
               {props.subtitle}
@@ -122,7 +122,7 @@ export default function RecipeReviewCard(props) {
                   <Chip
                     key={item}
                     className={classes.backchip}
-                    avatar={<Avatar src={`${item}.png`} />}
+                    avatar={<Avatar src={`/${item}.png`} />}
                     label={item}
                     clickable
                     color="primary"
