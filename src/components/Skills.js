@@ -84,11 +84,11 @@ export default function Skills(props) {
     <div>
       {props.start && <div>
         <Typography variant="h5"> {"<Skills />"} </Typography>
-        <Box justifyContent="flex-end" display="flex" className={classes.vertical}>
+        {/* <Box justifyContent="flex-end" display="flex" className={classes.vertical}>
           <Button size="small" onClick={() => setDetail(!details)}>
             {details ? "Sub_Skills\t\>" : "Main_Skills\t\>"}
           </Button>
-        </Box>
+        </Box> */}
         {Object.values(Skillsdata).map((kind, index) => {
           let isEmpty = kind.filter((k) => k.main === details).length > 0
           return (

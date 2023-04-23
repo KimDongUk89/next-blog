@@ -92,13 +92,13 @@ export default function Home(props) {
           {progress > -1 && <Typography variant='h3' align={'center'}>
             <Typist className={styles.title} avgTypingDelay={50}>
               <span> 안녕하세요. </span>
-              <Typist.Backspace count={8} delay={600} />
-              <span> 사용자 친화적인 </span>
-              <Typist.Backspace count={10} delay={600} />
+              <Typist.Backspace count={14} delay={600} />
               <span> 최신트렌드를 중요시하는 </span>
               <Typist.Backspace count={14} delay={600} />
-              <span> 프론트엔드 개발자 </span> <br />
-              <span> 이제찬 입니다.</span>
+              <span> 인공지능을 좋아하는 </span>
+              <Typist.Backspace count={14} delay={600} />
+              <span> 인공지능 개발자</span> <br />
+              <span> 김동욱 입니다.</span>
             </Typist>
           </Typography>}
         </Grid >

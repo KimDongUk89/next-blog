@@ -103,13 +103,12 @@ export default function RecipeReviewCard(props) {
             <Typography variant="body1" >#세부사항 </Typography>
             <Box justifyContent="space-between" display="flex" className={classes.backbadge}>
               <Typography variant="body">개발 일자 : </Typography>
-              <img src={`https://img.shields.io/github/last-commit/${props.github}?style=plastic`} />
+              {/* <img src={`https://img.shields.io/github/last-commit/${props.github}?style=plastic`} /> */}
+              <img src={`https://img.shields.io/badge/${props.date}?style=plastic`} />
             </Box>
             <Box justifyContent="space-between" display="flex" className={classes.backbadge}>
               <Typography variant="body">개발 직무 : </Typography>
-              <Box><img className={classes.badgestyle} src={`https://img.shields.io/badge/-Frontend-brightgreen`} />
-                <img className={classes.badgestyle} src={`https://img.shields.io/badge/-Design-brightgreen`} />
-                <img className={classes.badgestyle} src={`https://img.shields.io/badge/-Backend-brightgreen`} /></Box>
+              <Box><img className={classes.badgestyle} src={`https://img.shields.io/badge/-DataScientiest-brightgreen`} /></Box>
             </Box>
             <Box className={classes.backtypography}>
               <Typography variant="body1" className={classes.backtypography} display="block">#나의 기여도 </Typography>

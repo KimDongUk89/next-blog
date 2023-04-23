@@ -24,80 +24,57 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "꽃길",
-    subtitle: `온라인으로 부조금을 송금 및 관리할 수 있는 웹 어플리케이션 \n(NH 농협 핀테크 공모전 참가)`,
-    description: `프로젝트를 기획하고 웹 UI 디자인과 퍼블리싱을 진행하였습니다.\n
-    모바일 어플리케이션으로 실행시키기 위하여 웹 어플리케이션 형태로 제작하였습니다`,
-    mypart: [` vuex와 JWT 토큰으로 로그인 상태 관리 구현`,
-      ` eslint, prettier 통한 코딩컨벤션의 지속적인 통합`,
-      ` webpack, babel을 활용하여 es6도입 및 scss파일 번들링, 배포`,],
-    github: `jeky22/NHfintech-frontend`,
-    stacks: ['vue', 'node', 'mysql', 'aws', 'bootstrap'],
-    img: "ggotgil.png"
-  },
-  {
-    name: "Let Eat, Go",
-    subtitle: `음식점구독서비스를 일반 자영업자들과 소비자들에게 \n제공하기 위한 플랫폼`,
-    description: `웹 프론트 개발과 백엔드 서버 개발을 맡아 진행하였습니다 프로젝트에서 개발환경세팅과 메인 기능구현 서버구축을 하였습니다`,
+    name: "음성 ChatGPT",
+    subtitle: `음성으로 질문을 하면 \nChatGPT의 대답을 음성으로 들려주는 프로그램 `,
+    description: `개인 프로젝트로 기획했습니다. OpenAI와 Google Cloud Speech의 API를 이용했습니다`,
     mypart: [
-      `webpack, babel 을 활용한 모듈 번들링 및 배포`,
-      `travisCI 를 통해 빌드 테스트 코딩컨벤션 통일`,
-      `스크럼 회의 백로그 작성등을 통한 agile 방식의 개발 적용`,
-      `AWS RDS, EC2, S3 활용한 클라우드 배포`,
-    ],
-    github: `jeky22/returnICE-frontend`,
-    stacks: ['vue', 'node', 'mysql', 'aws', 'bootstrap'],
-    img: "leteatgo.png"
+      ` API들을 연결하여 구현`,
+      ` OpenAI의 ChatGPT API`,
+      ` Google Cloud Speech API`,
+      ],
+    date: `April-2023-blue`,
+    stacks: ['Python', 'OpenAI', 'GoogleSpeech'],
+    img: "chatbot.png"
   },
   {
-    name: "Circus",
-    subtitle: `온라인으로 교내외 스터디를 만들고 \n참여할 수 있도록 돕는 웹 서비스 플랫폼`,
-    description: `프론트엔드를 맡아 프로젝트를 진행하였습니다`,
+    name: "암세포 분류 AI",
+    subtitle: `세포 이미지를 보고 암세포인지 정상세포인지 분류하는 AI`,
+    description: `해외 프로그램에서 진행한 탐프로젝트입니다. \nCNN의 ResNet, VGG, Inception-V3의 암세포 분류 성능을 비교했습니다.`,
     mypart: [
-      `restful 한 API 설계`,
-      `session 쿠키 관리를 통한 클라이언트 인증 방식 도입`,
-      `Bootsrap 사용하여 반응형 웹으로 제작`,
+      `암세포와 정상세포 이미지 데이터셋 구축`,
+      `ResNet 전이학습 모델 구현`,
+      `ResNet, VGG, Inception-V3 성능 비교`,
     ],
-    github: `jeky22/webproject`,
-    stacks: ['vue', 'node', 'mongodb', 'bootstrap'],
-    img: "circus.gif"
+    date: `February-2023-blue`,
+    stacks: ['Python', 'Pytorch'],
+    img: "cell.png"
   },
   {
-    name: "한터리즘",
-    subtitle: `아주대학교 학술소학회 한터의 소개 및\n학술부원 신청을 위한 웹페이지`,
-    description: `웹 퍼블리싱을 맡아 진행하였습니다 모바일과 pc 모두 보기 편하도록 반응형 웹으로 제작하였습니다`,
+    name: "손동작 인식 스트레칭 가이드",
+    subtitle: `카메라에서 손동작을 인식하여 올바른 자세로 \n손 스트레칭을 할 수 있도록 도와주는 서비스`,
+    description: `리드미 동아리에서 진행할 프로젝트입니다. 현재 기획 단계에 있습니다`,
     mypart: [
-      ` Bootsrap 사용하여 반응형 웹으로 제작`,
-      ` 인터렉티브한 웹 개발`,
+      `손동작 데이터셋 수집`,
+      `LSTM 사용해 모델 생성`,
+      `데이터셋을 모델에 학습`,
     ],
-    github: `jeky22/hantorism`,
-    stacks: ['django', 'mysql', 'aws', 'bootstrap'],
-    img: "hantorism.gif"
-
+    date: `May-2023-blue`,
+    stacks: ['Python', 'Numpy', 'OpenCV', 'tensorflow'],
+    img: "hand.png"
   },
-]
-
-
-
-const Cprojects = [
   {
-    name: "Factagora",
-    subtitle: `온라인으로 부조금을 송금 및 관리할 수 있는 \n웹 어플리케이션 (NH 농협 핀테크 공모전 참가)`,
-    description: `프로젝트를 기획하고 웹 UI 디자인과 퍼블리싱을 진행하였습니다.
-    모바일 어플리케이션으로 실행시키기 위하여 웹 어플리케이션 형태로 제작하였습니다`,
-    mypart: [` vuex와 JWT 토큰으로 로그인 상태 관리 구현`,
-      ` eslint, prettier 통한 코딩컨벤션의 지속적인 통합`,
-      ` webpack, babel을 활용하여 es6도입 및 scss파일 번들링, 배포`,]
+    name: "강아지 객체 분류 AI",
+    subtitle: `강아지 이미지 학습 후 강아지 객체 분류를 하는 AI`,
+    description: `연구실 프로젝트로 진행했습니다. 강아지의 이미지를 인공지능 모델에 학습시키고 강아지의 새로운 사진을 입력할 때 강아지 객체를 분류합니다`,
+    mypart: [
+      ` 강아지 데이터셋 구축`,
+      ` Pytorch를 이용하여 전이 학습된 ResNet 모델 생성`,
+    ],
+    date: `December-2022-blue`,
+    stacks: ['Python', 'Pytorch', 'Numpy', 'Scikitlearn'],
+    img: "dogclassification.png"
+
   },
-]
-const proj2 = [
-  { name: "코테공부중" },
-  { name: "시소보" },
-  { name: "창소입" },
-  { name: "소응보" },
-  { name: "네보" },
-  { name: "운체" },
-  { name: "자구" },
 ]
 
 function SampleNextArrow(props) {
@@ -165,37 +142,6 @@ export default function AutoGrid() {
           </Box>
         )}
       </Slider>
-      {/* <Cards {...projects[1]}/> */}
-      {/* 갠 프로젝트 뭐했는지 쓰자
-      <Grid container>
-        <Grid item xs={3}>
-          <Paper>코테공부중</Paper>
-        </Grid>
-        <Grid item xs={3}>
-          <Paper>시소보</Paper>
-        </Grid>
-        <Grid item xs={3}>
-          <Paper>창소입</Paper>
-        </Grid>
-        <Grid item xs={3}>
-          <Paper>소응보</Paper>
-        </Grid>
-        <Grid item xs={3}>
-          <Paper>네보</Paper>
-        </Grid>
-        <Grid item xs={3}>
-          <Paper>운체</Paper>
-        </Grid>
-        <Grid item xs={3}>
-          <Paper>자구</Paper>
-        </Grid>
-      </Grid>
-      <Grid item xs={3}>
-        <Paper>
-          프로젝트 기능 1. 확대 기능 2. carosel 기능 3. 링크 기능 4. 보기란
-          기능 5. hits
-          </Paper>
-      </Grid> */}
     </div>
   );
 }

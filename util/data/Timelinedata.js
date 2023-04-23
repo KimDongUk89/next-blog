@@ -6,10 +6,11 @@ import ComputerIcon from '@material-ui/icons/Computer';
 import EventAvailableIcon from '@material-ui/icons/EventAvailable';
 
 export const Timelinedata = [
-  { date: "2014.03", icon: <SchoolIcon />, title: " 아주대학교 입학", detail: "사이버 보안학과 14학번" },
-  { date: "2015.06 ~ 2017.06", icon: <BuildIcon />, title: "군 입대", detail: "공군병장 만기전역" },
-  { date: "2019.07 ~ 2019.08", icon: <MenuBookIcon />, title: "청년 IT 인재육성(웹개발자) 수료", detail: `SK C&C, 경기도·경기경제과학진흥원 주최` },
-  { date: "2020.01 ~ 2020.05", icon: <WorkIcon />, title: " ㈜팩타고라", detail: " IT기업 모바일 개발팀 인턴" },
-  { date: "2020.09 ~ 2020.09", icon: <ComputerIcon />, title: "우아한 테크러닝 3기", detail: "React&TypeScript by.우아한테크코스" },
-  { date: "2020.08  ", icon: <EventAvailableIcon />, title: "아주대학교 졸업", detail: "" },
+  { date: "2019.03", icon: <SchoolIcon />, title: " 제주대학교 입학", detail: "컴퓨터공학전공 19학번" },
+  { date: "2019.11~", icon: <SchoolIcon />, title: " 제주대학교 학부연구생", detail: "제주대학교 시스템소프트웨어 연구실" },
+  { date: "2019.11", icon: <MenuBookIcon />, title: "스타트업 위크엔드 워크숍 우수상", detail: `대학부` },
+  { date: "2020.02", icon: <MenuBookIcon />, title: "아이디어 경진대회 우수상 수상", detail: `5G 기반의 ICT융합서비스 아이디어 경진대회` },
+  { date: "2020.05 ~ 2021.11", icon: <BuildIcon />, title: "군 입대", detail: "육군병장 만기전역" },
+  { date: "2023.01 ~ 2023.02", icon: <ComputerIcon />, title: "해외 현장실습 프로그램", detail: "미국 라스베가스 UNLV" },
+  { date: "2023.04 ~ ", icon: <EventAvailableIcon />, title: "협업 동아리 \"리드미\"", detail: "AI파트 주니어" },
 ]

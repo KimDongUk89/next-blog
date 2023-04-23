@@ -8,6 +8,7 @@ import Link from '@material-ui/core/Link';
 import SvgIcon from '@material-ui/core/SvgIcon';
 // import { Kakaotalk } from '../../public/kakaotalk'
 import EmailIcon from '@material-ui/icons/Email';
+import LocalPhoneIcon from '@material-ui/icons/LocalPhone';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import Fireworks from './Fireworks'
@@ -55,27 +56,27 @@ export default function Home() {
       <Box flex={1} className={classes.main} maxWidth={600} >
         {/* <Fireworks /> */}
         <Typography variant="body1">
-          <div className={classes.typoFont}>"어떻게 하면 사용자가 더 쓰기편한 서비스를 만들 수 있을까?"</div>
-          <div className={classes.typo}>안녕하세요! 프론트엔드 개발자 이제찬입니다.</div>
-          <div className={classes.typo}>대학생활에 다양한 프로젝트와 인턴십과정에서 다양한 프로젝트를 진행하였고, 이를 통해 웹 개발 업무 프로세스에 전반적인 이해력을 습득하였습니다.</div>
-          <div className={classes.typo}>개발하면서 제가 느낀 좋은 IT 서비스는 사용자의 입장에서 쓰기편한 서비스라 생각하고, 늘 사용자의 관점을 고안하며 개발하고 있습니다. </div>
-          <div className={classes.typo}>현재는 거창한 업무성과보다 사용자의 작은 문제해결에 끝까지 몰입할 수 있는 신입 개발자입니다. 이런 저의 <b className={classes.typoBold}>성장가능성을 믿고 이끌어줄 회사</b>를 찾고 있습니다. </div>
+          <div className={classes.typoFont}>"끊임없이 탐구하고 성장하자"</div>
+          <div className={classes.typo}>안녕하세요! 인공지능에 열정과 흥미를 가진 김동욱입니다.</div>
+          <div className={classes.typo}>대학생활을 하면서 다양한 프로젝트를 진행하는 과정에서 인공지능에 흥미를 느꼈습니다.</div>
+          <div className={classes.typo}>인공지능의 분야 중 자연어 처리 분야에 관심이 있으며, 현재 공부 중에 있습니다. </div>
+          <div className={classes.typo}>하루하루 열심히 공부하여 <b className={classes.typoBold}>어제보다 성장한 제 자신이 되려고 합니다</b></div>
         </Typography>
       </Box>
       <Typography variant="h5" style={{ marginTop: '30px' }} > {"<Link />"} </Typography>
 
       <Box onMouseLeave={() => setLinkValue("")} textAlign="center" maxWidth={600} >
         <BottomNavigation value={linkValue}>
-          <BottomNavigationAction target="_blank" href="https://github.com/jeky22" onMouseEnter={handleLinkChange} label="Github" value="Github" icon={<GitHubIcon fontSize="large" />} />
-          <BottomNavigationAction target="_blank" href="https://velog.io/@jeky22" onMouseEnter={handleLinkChange} label="Blog" value="Blog" icon={<WebIcon fontSize="large" />} />
-          <BottomNavigationAction target="_blank" href="https://www.instagram.com/jeky.__.26/" onMouseEnter={handleLinkChange} label="Instagram" value="Instagram" icon={<InstagramIcon fontSize="large" />} />
+          <BottomNavigationAction target="_blank" href="https://github.com/KimDongUk89" onMouseEnter={handleLinkChange} label="Github" value="Github" icon={<GitHubIcon fontSize="large" />} />
+          <BottomNavigationAction target="_blank" href="https://www.instagram.com/uk__dong__/" onMouseEnter={handleLinkChange} label="Instagram" value="Instagram" icon={<InstagramIcon fontSize="large" />} />
         </BottomNavigation>
       </Box>
       <Typography variant="h5"> {"<Contact />"} </Typography>
       <Box onMouseLeave={() => setContactValue("")} textAlign="center" maxWidth={600} >
         <BottomNavigation value={contactValue}>
-          <BottomNavigationAction target="_blank" href="https://open.kakao.com/o/sdBmKM8c" onMouseEnter={handleContactChange} label="Kakaotalk" value="Kakaotalk" icon={KakaoIcon} />
-          <BottomNavigationAction href="mailto:qhzh33@gmail.com" target="_blank" onMouseEnter={handleContactChange} label="Email" value="Email" icon={<EmailIcon fontSize="large" />} />
+          <BottomNavigationAction target="_blank" href="https://open.kakao.com/o/s2FzECgf" onMouseEnter={handleContactChange} label="Kakaotalk" value="Kakaotalk" icon={KakaoIcon} />
+          <BottomNavigationAction href="tel:010-7708-0902" target="_blank"  onMouseEnter={handleContactChange} label="Telphone" value="Telephone" icon={<LocalPhoneIcon fontSize="large"/>} />
+          <BottomNavigationAction href="mailto:a01077080902@gmail.com" target="_blank" onMouseEnter={handleContactChange} label="Email" value="Email" icon={<EmailIcon fontSize="large" />} />
         </BottomNavigation>
       </Box>
     </div>
