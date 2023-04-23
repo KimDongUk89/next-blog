@@ -122,7 +122,7 @@ export default function RecipeReviewCard(props) {
                   <Chip
                     key={item}
                     className={classes.backchip}
-                    avatar={<Avatar src={`/${item}.png`} />}
+                    avatar={<Avatar src={`${item}.png`} />}
                     label={item}
                     clickable
                     color="primary"
@@ -132,16 +132,6 @@ export default function RecipeReviewCard(props) {
             </Box>
           </div>
         </div>
-      </div>
-      <div>
-        <Box onMouseLeave={() => setValue("")} textAlign="center" className={classes.boxstyle} borderRadius={16} boxShadow={4}>
-          <BottomNavigation value={value}>
-            <BottomNavigationAction onMouseEnter={handleChange} label="Recents" value="Recents" icon={<AlarmIcon />} />
-            <BottomNavigationAction onMouseEnter={handleChange} label="Video" value="Video" icon={<YouTubeIcon />} />
-            <BottomNavigationAction onMouseEnter={handleChange} label="Notion" value="Notion" icon={NotionIcon} />
-            <BottomNavigationAction onMouseEnter={handleChange} label="Github" value="Github" icon={<GitHubIcon />} />
-          </BottomNavigation>
-        </Box>
       </div>
     </div>
   );
