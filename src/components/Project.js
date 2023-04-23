@@ -33,7 +33,7 @@ const projects = [
       ` Google Cloud Speech API`,
       ],
     date: `April-2023-blue`,
-    stacks: ['Python', 'OpenAI', 'GoogleSpeech'],
+    stacks: ['python', 'openai', 'googlespeech'],
     img: "https://user-images.githubusercontent.com/53862911/233826669-2e1a30d3-160b-44d7-9e3f-a9d8b81c46d6.png"
   },
   {
@@ -46,7 +46,7 @@ const projects = [
       `ResNet, VGG, Inception-V3 성능 비교`,
     ],
     date: `February-2023-blue`,
-    stacks: ['Python', 'Pytorch'],
+    stacks: ['python', 'pytorch'],
     img: "https://user-images.githubusercontent.com/53862911/233826727-c81b0de8-755d-4a80-acd2-746298044a99.png"
   },
   {
@@ -59,7 +59,7 @@ const projects = [
       `데이터셋을 모델에 학습`,
     ],
     date: `May-2023-blue`,
-    stacks: ['Python', 'Numpy', 'OpenCV', 'tensorflow'],
+    stacks: ['python', 'numpy', 'opencv', 'tensorflow'],
     img: "https://user-images.githubusercontent.com/53862911/233826701-34e645d9-ef6c-4130-9f67-373b71e2a8af.png"
   },
   {
@@ -71,7 +71,7 @@ const projects = [
       ` Pytorch를 이용하여 전이 학습된 ResNet 모델 생성`,
     ],
     date: `December-2022-blue`,
-    stacks: ['Python', 'Pytorch', 'Numpy', 'Scikitlearn'],
+    stacks: ['python', 'pytorch', 'numpy', 'scikitlearn'],
     img: "https://user-images.githubusercontent.com/53862911/233826449-dce822ba-3a81-4755-92a0-8504ebb78bbd.png"
 
   },
