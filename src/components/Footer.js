@@ -59,7 +59,7 @@ export default function Home() {
           <div className={classes.typoFont}>"끊임없이 탐구하고 성장하자"</div>
           <div className={classes.typo}>안녕하세요! 인공지능에 열정과 흥미를 가진 김동욱입니다.</div>
           <div className={classes.typo}>대학생활을 하면서 다양한 프로젝트를 진행하는 과정에서 인공지능에 흥미를 느꼈습니다.</div>
-          <div className={classes.typo}>인공지능의 분야 중 자연어 처리 분야에 관심이 있으며, 현재 공부 중에 있습니다. </div>
+          <div className={classes.typo}>인공지능의 분야 중 자연어 처리 분야에 관심이 있으며, 현재 대학원 진학을 목표로 공부하고 있습니다. </div>
           <div className={classes.typo}>하루하루 열심히 공부하여 <b className={classes.typoBold}>어제보다 성장한 제 자신이 되려고 합니다</b></div>
         </Typography>
       </Box>
